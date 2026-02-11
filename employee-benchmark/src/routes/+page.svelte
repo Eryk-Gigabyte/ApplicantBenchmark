@@ -3,8 +3,6 @@
 	import { submitApplications } from '$lib/postAiAndFile';
 
 	let selectedAIs: string[] = [];
-	let uploadedFile: File | null = null;
-	let fileInput: HTMLInputElement;
 	let isSubmitting = false;
 
 	function toggleAI(name: string, checked: boolean) {
@@ -15,35 +13,28 @@
 		}
 	}
 
-	function handleFileChange(event: Event) {
-		const target = event.target as HTMLInputElement;
-		if (target.files && target.files.length > 0) {
-			uploadedFile = target.files[0];
-		}
-	}
-
-	function triggerFileInput() {
-		fileInput?.click();
-	}
-
 	async function handleSubmit(event: Event) {
 		event.preventDefault();
-		
-		if (!uploadedFile || selectedAIs.length === 0) return;
-		
+
+		if (selectedAIs.length === 0) return;
+
 		isSubmitting = true;
-		
-		const result = await submitApplications({
-			selectedAIs,
-			file: uploadedFile
-		});
+
+		// const result = await submitApplications({
+		// 	selectedAIs
+		// });
+
+		const result: { success: boolean; redirectUrl?: string; message?: string } = {
+			success: true,
+			redirectUrl: '/application-compare'
+		};
 		
 		isSubmitting = false;
-		
+
 		if (result.success) {
 			goto(result.redirectUrl || '/application-compare');
 		} else {
-			alert(result.message || 'Fehler beim Hochladen');
+			alert(result.message || 'Fehler beim Absenden');
 		}
 	}
 
@@ -101,60 +92,16 @@
                         {/each}
                     </div>
 
-					<p class="mt-6 text-m text-left text-white/80">Alles klar, und jetzt lade deine Bewerber daten hoch:</p>
-					<div class="mt-4 rounded-lg border border-white/30 p-6 flex flex-row gap-4 items-center justify-center flex-wrap">
-						<input
-							bind:this={fileInput}
-							type="file"
-							accept=".pdf,.csv,.xlsx,.xls,.json"
-							onchange={handleFileChange}
-							class="hidden"
-						/>
-						
-						<button
-							type="button"
-							onclick={triggerFileInput}
-							class="px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white/15 hover:border-white/30 transition-all duration-200 shadow-lg cursor-pointer flex items-center gap-3"
-						>
-							<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-								<polyline points="17 8 12 3 7 8" />
-								<line x1="12" y1="3" x2="12" y2="15" />
-							</svg>
-							<span class="text-sm font-medium">Datei auswählen</span>
-						</button>
-
-						{#if uploadedFile}
-							<div class="flex gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10">
-								<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-green-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12" />
-								</svg>
-								<p class="text-sm text-white/80">{uploadedFile.name}</p>
-								<button
-									type="button"
-									onclick={() => { uploadedFile = null; fileInput.value = ''; }}
-									class="ml-2 text-white/50 hover:text-white/90 transition-colors"
-									aria-label="Datei entfernen"
-								>
-									<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-										<line x1="18" y1="6" x2="6" y2="18" />
-										<line x1="6" y1="6" x2="18" y2="18" />
-									</svg>
-								</button>
-							</div>
-						{/if}
-					</div>
-
                     <div class="mt-8 flex justify-center">
-                        <button
-                            type="submit"
-                            disabled={selectedAIs.length === 0 || !uploadedFile || isSubmitting}
-                            class="px-8 py-3 rounded-full font-semibold transition-all
-                                {selectedAIs.length === 0 || !uploadedFile || isSubmitting
-                                    ? 'bg-white/10 text-white/40 cursor-not-allowed'
-                                    : 'bg-white text-black hover:bg-white/90'}">
-                            {isSubmitting ? 'Laden...' : 'Weiter'}
-                        </button>
+						<button
+							type="submit"
+							disabled={selectedAIs.length === 0 || isSubmitting}
+							class="px-8 py-3 rounded-full font-semibold transition-all
+								{selectedAIs.length === 0 || isSubmitting
+									? 'bg-white/10 text-white/40 cursor-not-allowed'
+									: 'bg-white text-black hover:bg-white/90'}">
+							{isSubmitting ? 'Laden...' : 'Weiter'}
+						</button>
                     </div>
                 </form>
 			</div>

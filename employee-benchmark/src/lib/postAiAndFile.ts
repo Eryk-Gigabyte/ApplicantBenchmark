@@ -1,6 +1,5 @@
 export interface SubmitApplicationsRequest {
 	selectedAIs: string[];
-	file: File;
 }
 
 export interface SubmitApplicationsResponse {
@@ -10,25 +9,16 @@ export interface SubmitApplicationsResponse {
 }
 
 /**
- * Submit selected AIs and uploaded file to the backend
+ * Submit selected AIs to the backend (no file upload)
  */
 export async function submitApplications(
 	data: SubmitApplicationsRequest
 ): Promise<SubmitApplicationsResponse> {
-	const formData = new FormData();
-	
-	// Add selected AIs as array
-	data.selectedAIs.forEach((ai) => {
-		formData.append('selectedAIs[]', ai);
-	});
-	
-	// Add uploaded file
-	formData.append('file', data.file);
-
 	try {
 		const response = await fetch('/api/applications/submit', {
 			method: 'POST',
-			body: formData
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ selectedAIs: data.selectedAIs })
 		});
 
 		if (!response.ok) {
