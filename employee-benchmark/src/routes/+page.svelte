@@ -28,7 +28,7 @@
 			success: true,
 			redirectUrl: '/application-compare'
 		};
-		
+
 		isSubmitting = false;
 
 		if (result.success) {
@@ -61,7 +61,7 @@
 </script>
 
 
-<div class="w-full max-w-4xl mx-auto px-4">
+<div class="w-full min-h-screen flex items-center justify-center px-4">
 	<!-- central content -->
 	<div class="max-w-4xl mx-auto">
 		<section class="relative z-20 rounded-2xl border border-white/25 p-10 pt-20 pb-20 md:p-22 md:pt-22 md:pb-22 lg:p-30 lg:pt-20 lg:pb-20 backdrop-blur-sm bg-white/05">

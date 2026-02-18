@@ -40,7 +40,7 @@
   <img src={rocket} alt="rocket" class="pointer-events-none absolute right-[-4rem] bottom-[-2rem] w-[680px] md:w-[920px] max-w-none opacity-95 drop-shadow-2xl" style="transform: {rocketTransform}; transition: transform 180ms linear;" />
 </div>
 
-<main class="relative z-10 h-screen overflow-hidden flex items-center justify-center pointer-events-none">
+<main class="relative z-10 min-h-screen overflow-auto flex items-start justify-center pointer-events-none">
   <div class="pointer-events-auto">
     {@render children()}
   </div>
@@ -54,7 +54,7 @@
   :global(body) {
     margin: 0;
     min-height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     background-color: #17191d;
     color: #fff;
     font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, 'Courier New', monospace;
