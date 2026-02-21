@@ -1,0 +1,6 @@
+# This ignores any folder named applicantBenchmarkVenv anywhere in the project
+applicantBenchmarkVenv/
+
+# Standard python cache files (highly recommended to add these too)
+__pycache__/
+*.py[cod]

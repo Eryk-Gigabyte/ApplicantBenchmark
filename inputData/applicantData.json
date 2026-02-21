@@ -1,1 +1,52 @@
-{}
+[
+  {
+    "name": "Maximilian Schmidt",
+    "geburtsdatum": "1992-05-14",
+    "email": "m.schmidt@example.de"
+  },
+  {
+    "name": "Sara Nowak",
+    "geburtsdatum": "1988-11-22",
+    "email": "sara.nowak@web.de"
+  },
+  {
+    "name": "Julian Fischer",
+    "geburtsdatum": "1995-03-30",
+    "email": "fischer.julian@gmail.com"
+  },
+  {
+    "name": "Elena Wagner",
+    "geburtsdatum": "1990-07-12",
+    "email": "e.wagner@outlook.com"
+  },
+  {
+    "name": "Tobias Meyer",
+    "geburtsdatum": "1985-01-05",
+    "email": "tobias.meyer85@gmx.net"
+  },
+  {
+    "name": "Lisa Becker",
+    "geburtsdatum": "1998-09-18",
+    "email": "lisa.becker@becker-it.de"
+  },
+  {
+    "name": "Alexander Weber",
+    "geburtsdatum": "1993-12-01",
+    "email": "a.weber@t-online.de"
+  },
+  {
+    "name": "Sophie Hoffmann",
+    "geburtsdatum": "1991-04-25",
+    "email": "sophie.hoffmann@work-mail.com"
+  },
+  {
+    "name": "Christian Koch",
+    "geburtsdatum": "1987-08-14",
+    "email": "c.koch.berlin@web.de"
+  },
+  {
+    "name": "Hannah Richter",
+    "geburtsdatum": "1996-06-02",
+    "email": "hannah.richter@example.org"
+  }
+]
