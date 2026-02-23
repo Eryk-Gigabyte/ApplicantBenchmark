@@ -4,3 +4,27 @@ applicantBenchmarkVenv/
 # Standard python cache files (highly recommended to add these too)
 __pycache__/
 *.py[cod]
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+repomix-output.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
