@@ -1,8 +1,7 @@
 from pydantic import BaseModel, EmailStr, Field
 from typing import Optional, List
 from datetime import datetime
-
-# --- Detailmodelle (entsprechend den SQL-Tabellen) ---
+from uuid import UUID
 
 class Address(BaseModel):
     address: str = Field(alias="Address")
@@ -33,23 +32,20 @@ class Interests(BaseModel):
 class Qualification(BaseModel):
     qualification: str = Field(alias="Qualification")
 
-# --- Hauptmodell (entsprechend der Applicant-Tabelle) ---
 
 class Applicant(BaseModel):
+    # Diese Felder machen wir optional, damit das LLM sie nicht erzwingen muss
+    applicant_id: Optional[UUID] = None
+    model_name: Optional[str] = None
+
+    # Diese Felder muss das LLM extrahieren
     name: str = Field(alias="Name")
     surname: str = Field(alias="Surname")
     mail: EmailStr = Field(alias="Mail")
-    mobile_number: Optional[str] = Field(alias="Mobile_number")
-    landline_number: Optional[str] = Field(alias="Landline_number")
-    dob: datetime = Field(alias="Dob")
-    
-    # Hier bilden wir die Relationen ab
-    address: Address
-    education: Education
-    career: Career
-    interests: Interests
-    qualification: Qualification
+    # Optional, falls mal was fehlt
+    mobile_number: Optional[str] = Field(None, alias="Mobile_number")
+    landline_number: Optional[str] = Field(None, alias="Landline_number")
+    dob: Optional[datetime] = Field(None, alias="Dob")
 
     class Config:
-        # Erlaubt es, sowohl mit CamelCase (SQL) als auch snake_case (Python) zu arbeiten
         populate_by_name = True
