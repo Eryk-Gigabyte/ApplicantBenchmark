@@ -34,18 +34,22 @@ class Qualification(BaseModel):
 
 
 class Applicant(BaseModel):
-    # Diese Felder machen wir optional, damit das LLM sie nicht erzwingen muss
     applicant_id: Optional[UUID] = None
     model_name: Optional[str] = None
 
-    # Diese Felder muss das LLM extrahieren
     name: str = Field(alias="Name")
     surname: str = Field(alias="Surname")
     mail: EmailStr = Field(alias="Mail")
-    # Optional, falls mal was fehlt
     mobile_number: Optional[str] = Field(None, alias="Mobile_number")
     landline_number: Optional[str] = Field(None, alias="Landline_number")
-    dob: Optional[datetime] = Field(None, alias="Dob")
+    dob: Optional[datetime] = Field(None, alias="Dob") 
+   
+    address: Optional[Address] = Field(None, alias="Address")
+    interests: Optional[Interests] = Field(None, alias="Interests")
+    
+    education: List[Education] = Field(default_factory=list, alias="Education")
+    career: List[Career] = Field(default_factory=list, alias="Career")
+    qualifications: List[Qualification] = Field(default_factory=list, alias="Qualifications")
 
     class Config:
         populate_by_name = True

@@ -1,7 +1,7 @@
 import json
 from uuid import UUID
 
-from models import Applicant
+from ApplicantBenchmark.backend.models_alt import Applicant
 
 class DBService:
     def __init__(self, conn): # conn = deine DB Verbindung
