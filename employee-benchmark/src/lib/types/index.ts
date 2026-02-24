@@ -59,3 +59,18 @@ export interface Qualification {
     qualification_id?: number;
     qualification: string;
 }
+
+// Interface für die KI-Auswahl (wird in +page.svelte und ApplicationsListCard genutzt)
+export interface Provider {
+    name: string;
+    icon: string;
+}
+
+export interface ProviderBlock {
+    provider: Provider; // Umbenannt von AIProvider zu provider
+    metadata: {
+        answerTime: number;
+        tokens: number;
+    };
+    applications: Applicant[];
+}
