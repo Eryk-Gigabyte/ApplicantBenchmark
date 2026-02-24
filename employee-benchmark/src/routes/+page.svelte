@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { submitApplications } from '$lib/postAiAndFile';
 
 	let selectedAIs: string[] = [];
 	let isSubmitting = false;
@@ -19,10 +18,6 @@
 		if (selectedAIs.length === 0) return;
 
 		isSubmitting = true;
-
-		// const result = await submitApplications({
-		// 	selectedAIs
-		// });
 
 		const result: { success: boolean; redirectUrl?: string; message?: string } = {
 			success: true,
