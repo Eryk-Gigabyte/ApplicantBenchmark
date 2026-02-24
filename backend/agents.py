@@ -14,9 +14,9 @@ os.environ['OLLAMA_BASE_URL'] = 'http://localhost:11434/v1'
 
 print("Verbinde mit Ollama...")
 try:
-    # local_model = models.infer_model('ollama:llama3.2')
-    # local_model = models.infer_model('ollama:gemma3:12b')
-    local_model = models.infer_model('ollama:qwen3:8b')
+    local_qwen3_4b = models.infer_model('ollama:qwen3:4b')
+    local_qwen3_8b = models.infer_model('ollama:qwen3:8b')
+    # local_qwen3_30b = models.infer_model('ollama:qwen3:30b')
 except Exception as e:
     print(f"❌ Fehler: {e}")
     raise e
@@ -32,13 +32,31 @@ system_prompt = (
     "5. For career and education, extract all listed entries into their respective lists."
 )
 
-llama_agent = Agent(
-    local_model,
+retries = 3
+
+qwen3_4b_agent = Agent(
+    local_qwen3_4b,
     system_prompt=system_prompt,
     output_type=Applicant, 
-    retries=2 
+    retries=retries 
 )
 
+qwen3_8b_agent = Agent(
+    local_qwen3_8b,
+    system_prompt=system_prompt,
+    output_type=Applicant, 
+    retries=retries 
+)
+
+# qwen3_30b_agent = Agent(
+#     local_qwen3_30b,
+#     system_prompt=system_prompt,
+#     output_type=Applicant, 
+#     retries=retries
+# )
+
 agents_to_test = {
-    "qwen3:8b": llama_agent
+    "qwen3:4b": qwen3_4b_agent,
+    "qwen3:8b": qwen3_8b_agent,
+    # "qwen3:30b": qwen3_30b_agent
 }

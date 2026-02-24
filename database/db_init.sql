@@ -81,5 +81,6 @@ CREATE TABLE IF NOT EXISTS LLM_Logs (
     completion_tokens INT,
     total_tokens INT,
     duration_ms FLOAT,
+    retries INT DEFAULT 0,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

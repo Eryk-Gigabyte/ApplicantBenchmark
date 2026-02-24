@@ -1,23 +1,352 @@
 [
   {
-    "id": "11111111-1111-4111-8111-111111111111",
+    "id": "00000000-0000-0000-0000-000000000001",
     "name_field": "Schmidt, Maximilian",
     "geburtsdatum": "14. Mai 1992",
-    "kontaktdaten": "m.schmidt@example.de | Mobil: +49 170 1234567 | Festnetz: 030 9876543",
-    "cv_text": "Adresse: Musterstraße 12, 10115 Berlin, Deutschland. \nAusbildung: Von Oktober 2012 bis September 2015 habe ich meinen Bachelor in Informatik an der TU Berlin absolviert (Note: 1.5). \nBerufserfahrung: Danach war ich vom 01.01.2016 bis 31.12.2020 als Softwareentwickler bei der TechCorp GmbH tätig. Seit dem 01.01.2021 arbeite ich als Senior Developer bei Innovate IT. \nKenntnisse: Python, SQL, Docker. \nIn meiner Freizeit spiele ich gerne Fußball (Sport) und lese Science-Fiction (Hobby)."
+    "kontaktdaten": "m.schmidt[at]example.de | Mobil: +49 170 1234567 | Festnetz: 030 9876543",
+    "cv_text": "Adresse: Musterstraße 12, 10115 Berlin, Deutschland. Mein akademischer Werdegang begann mit einem Bachelorstudium in Informatik an der TU Berlin, welches ich von Oktober 2012 bis September 2015 mit einer Abschlussnote von 1.5 absolvierte. Direkt im Anschluss startete ich meine berufliche Laufbahn bei der TechCorp GmbH als Softwareentwickler. Dort war ich vom 01.01.2016 bis zum 31.12.2020 für die Backend-Architektur zuständig. Seit dem 01.01.2021 bin ich als Senior Developer bei Innovate IT beschäftigt, wo ich primär Cloud-Lösungen entwickle. Zu meinen Kernkompetenzen zählen Python, SQL und Docker. In meiner Freizeit spiele ich aktiv Fußball im Verein und interessiere mich leidenschaftlich für Science-Fiction-Literatur."
   },
   {
-    "id": "22222222-2222-4222-8222-222222222222",
+    "id": "00000000-0000-0000-0000-000000000002",
     "name_field": "Sara Nowak",
-    "geburtsdatum": "1988/11/22",
-    "kontaktdaten": "Email: sara.nowak@web.de, Cell: 0151 55566677",
-    "cv_text": "Wohnhaft am Hauptplatz 1 in 8010 Graz, Österreich. \nMein Masterstudium in Data Science habe ich an der Uni Wien gemacht (10/2010 - 09/2012, Abschlussnote: 1.2). \nKarriere: Data Analyst bei DataWizards (Januar 2013 bis Dezember 2018). Danach Head of Data bei Analytics R Us (Januar 2019 bis heute). \nQualifikationen: Machine Learning, Pydantic, AWS. \nIch engagiere mich bei der Freiwilligen Feuerwehr und gehe am Wochenende klettern."
+    "geburtsdatum": "22.11.1988",
+    "kontaktdaten": "Email: sara.nowak@web.de, Handy: 0151 55566677, Zuhause: 0316 123456",
+    "cv_text": "Wohnhaft am Hauptplatz 1 in 8010 Graz, Österreich. Nach meinem Abitur entschied ich mich für ein Studium der Datenwissenschaften. Meinen Master in Data Science erlangte ich an der Universität Wien im Zeitraum von Oktober 2010 bis September 2012 (Note: 1.2). Meine Karriere startete ich als Data Analyst bei den DataWizards, wo ich von Januar 2013 bis Dezember 2018 komplexe Datensätze auswertete. Aufgrund meiner Leistungen wurde ich im Januar 2019 zur Head of Data bei Analytics R Us befördert, eine Position, die ich bis heute innehabe. Ich verfüge über tiefgreifende Kenntnisse in Machine Learning, Pydantic und AWS. Neben dem Beruf engagiere ich mich bei der Freiwilligen Feuerwehr und gehe am Wochenende gerne in den Alpen klettern."
   },
   {
-    "id": "33333333-3333-4333-8333-333333333333",
-    "name_field": "Julian Fischer",
-    "geburtsdatum": "20.03.95",
-    "kontaktdaten": "fischer.julian[at]gmail.com, Tel: +49 40 1234567",
-    "cv_text": "Amselweg 4, 20095 Hamburg, GER. \nSchulbildung: Ausbildung zum Fachinformatiker an der Berufsschule Hamburg von August 2011 bis Juli 2014. \nBerufsweg: Seit August 2014 arbeite ich durchgehend im IT-Support bei HelpDesk 24. \nMeine Stärken liegen in der Windows Server Administration und Linux. \nIn meiner Freizeit widme ich mich hauptsächlich dem Gaming."
+    "id": "00000000-0000-0000-0000-000000000003",
+    "name_field": "Fischer, Julian",
+    "geburtsdatum": "20. März 1995",
+    "kontaktdaten": "fischer.julian[at]gmail.com, Tel: +49 40 1234567, mobil: 0176 99887766",
+    "cv_text": "Ich wohne im Amselweg 4, 20095 Hamburg, GER. Meine berufliche Ausbildung zum Fachinformatiker für Systemintegration absolvierte ich an der staatlichen Berufsschule Hamburg zwischen August 2011 und Juli 2014. Unmittelbar nach dem Abschluss wurde ich von meinem Ausbildungsbetrieb HelpDesk 24 übernommen. Seit August 2014 arbeite ich dort durchgehend im IT-Support und bin mittlerweile für die Leitung der Junioren zuständig. Meine technischen Schwerpunkte liegen in der Windows Server Administration sowie in Linux-Umgebungen. In meiner schulfreien Zeit widme ich mich hauptsächlich dem kompetitiven Gaming und der Hardware-Bastelei."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000004",
+    "name_field": "Dr. h.c. Elena von Müller-Stahl",
+    "geburtsdatum": "02.01.1982",
+    "kontaktdaten": "elena.mueller@advisory-pro.com | Festnetznummer: +41 44 123 45 67 | handynummer: +41 79 123 45 67",
+    "cv_text": "Aktuelle Anschrift: Seestrasse 105, 8002 Zürich, Schweiz. Ich studierte Betriebswirtschaftslehre an der Universität St. Gallen (HSG) von September 2001 bis August 2006 und schloss mit einer hervorragenden Note von 5.5 ab. Mein beruflicher Weg führte mich direkt zu McKinsey & Company, wo ich über ein Jahrzehnt (2007-2017) als Strategieberaterin und später als Partnerin tätig war. Mein Fokus lag dabei auf M&A-Prozessen und internationalem Change Management. Aktuell berate ich exklusiv Aufsichtsräte. Ich bin Expertin für Verhandlungsführung. Privat reite ich Dressur auf Turnierniveau und sammle seltene antike Taschenuhren aus dem 19. Jahrhundert."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000005",
+    "name_field": "Kevin-Justin Schlotterbeck",
+    "geburtsdatum": "31.12.1999",
+    "kontaktdaten": "kj-power-99[at]gmx.net, Telefon: 0221 112233, Mobil: 0157 889900",
+    "cv_text": "Postanschrift: Postfach 1234, 50667 Köln. Nach meinem Realschulabschluss habe ich mich direkt in die Arbeitswelt gestürzt. Ich verfüge über keine abgeschlossene Berufsausbildung, habe aber langjährige praktische Erfahrung gesammelt. Von März 2018 bis November 2022 war ich als Kurierfahrer und Logistikhelfer bei Flash-Delivery fest angestellt. Seit Anfang 2023 widme ich mich verstärkt dem Ehrenamt und helfe drei Tage die Woche bei der Kölner Tafel bei der Lebensmittelausgabe. Ich besitze den Führerschein der Klasse B und verfüge über solide Grundkenntnisse in MS Office (Word und Excel). In meiner Freizeit schraube ich gerne an alten Mofas."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000006",
+    "name_field": "Li, Wei",
+    "geburtsdatum": "15.05.1990",
+    "kontaktdaten": "w.li@global-tech.cn, Festnetz: 0086 21 61234567, Handy: 0086 139 12345678",
+    "cv_text": "Derzeit wohnhaft in der Rue de la Loi 200, 1040 Brüssel, Belgien. Meine akademische Laufbahn führte mich in die USA, wo ich am Massachusetts Institute of Technology (MIT) in Physik promovierte (PhD, 2010-2015). Nach meiner Promotion zog es mich zurück nach Europa. Seit Februar 2016 arbeite ich als Research Lead am CERN in der Schweiz an der Erforschung von Quantenalgorithmen. Ich bin spezialisiert auf Quantum Computing, C++ und Python-Entwicklung für wissenschaftliche Simulationen. Neben der Forschung nehme ich regelmäßig an internationalen Marathon-Läufen teil und spiele Schach im Verein auf Oberliga-Niveau."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000007",
+    "name_field": "Thomas Anderson",
+    "geburtsdatum": "11.03.1975",
+    "kontaktdaten": "tanderson[at]metacortex.com | privat: 555-0199 | mobilnummer: 555-0100",
+    "cv_text": "Wohnhaft in 12304 West Street, Los Angeles, CA 90210, USA. Ich habe Informatik an der Metro University studiert und dort meinen Abschluss im Jahr 1997 mit einem GPA von 3.8 gemacht (Zeitraum 1994-1997). Unmittelbar danach trat ich eine Stelle als Programmierer bei der Firma MetaCortex an, wo ich seit 1998 ununterbrochen beschäftigt bin. Mein Aufgabenbereich umfasst die Wartung kritischer Datenbanksysteme und die Software-Sicherheit. Ich besitze Expertenkenntnisse in Systemarchitektur und IT-Forensik. In meiner Freizeit praktiziere ich intensiv Jiu-Jitsu und beschäftige mich mit Netzwerksicherheit (Hacking)."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000008",
+    "name_field": "Maria Garcia-Lopez",
+    "geburtsdatum": "24. April 1993",
+    "kontaktdaten": "m.garcia@outlook.es, Festnetz: +34 91 123 4567, Handy: +34 600 123 456",
+    "cv_text": "Anschrift: Calle de Alcalá 1, 28014 Madrid, Spanien. Ich habe Bauingenieurwesen an der Universidad Politécnica de Madrid (UPM) studiert (Beginn September 2011, Ende Juni 2016). Mein beruflicher Einstieg erfolgte im Januar 2017 bei der Firma Acciona, einem weltweit führenden Unternehmen im Bereich Infrastruktur. Dort arbeite ich seither als Projektingenieurin für Großbrückenbau. Ich beherrsche Spanisch und Englisch fließend in Wort und Schrift. Als Ausgleich zu meinem stressigen Job im Büro und auf der Baustelle gehe ich am liebsten in den Bergen wandern (Senderismo) und fotografiere Landschaften."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000009",
+    "name_field": "Yuki Aoki",
+    "geburtsdatum": "10.05.1988",
+    "kontaktdaten": "yuki.aoki[at]example.jp, Zuhause: +81 3 1234 5678, mobil: +81 90 1234 5678",
+    "cv_text": "Adresse: Minato-ku, Tokyo 105-0011, Japan. Ich absolvierte mein Studium an der renommierten University of Tokyo von April 2007 bis März 2011. Danach wurde ich von Sony als Software Engineer eingestellt, wo ich von April 2011 bis Dezember 2020 an der Entwicklung von Unterhaltungselektronik und Embedded Systems arbeitete. Seit Januar 2021 bin ich als freiberufliche Entwicklerin für verschiedene Tech-Startups tätig. Ich bin Expertin für Java, Go und React. Zu meinen Hobbys zählt das Singen in Karaoke-Bars, was in meiner Kultur ein wichtiger sozialer Faktor ist, sowie die japanische Teezeremonie."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000010",
+    "name_field": "O'Connor, Siobhan",
+    "geburtsdatum": "12.08.1985",
+    "kontaktdaten": "siobhan.oc@eircom.ie | Festnetznummer: +353 1 855 1234 | mobil: +353 87 123 4567",
+    "cv_text": "Wohnhaft in 42 O'Connell Street, Dublin 1, Irland. Mein Studium der Geschichte absolvierte ich am Trinity College Dublin zwischen 2003 und 2007 mit dem Abschluss Bachelor of Arts. Meine Liebe zu Büchern und zur Archivarbeit führte mich 2008 zur National Library of Ireland, wo ich seither als leitende Bibliothekarin für historische Manuskripte angestellt bin. Ich bin verantwortlich für die Digitalisierung alter Bestände. Neben meiner beruflichen Tätigkeit engagiere ich mich seit vielen Jahren ehrenamtlich beim Irischen Roten Kreuz als Ersthelferin. In meiner Freizeit spiele ich die keltische Harfe."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000011",
+    "name_field": "Jean-Pierre de la Fontaine",
+    "geburtsdatum": "01.07.1980",
+    "kontaktdaten": "jp.fontaine[at]orange.fr, domicile: +33 1 42 66 10 10, portable: +33 6 12 34 56 78",
+    "cv_text": "Anschrift: 15 Rue de la Paix, 75008 Paris, Frankreich. Ich bin Absolvent der École Normale Supérieure (ENS), wo ich von 2000 bis 2004 studierte. Meine Karriere im Marketing begann 2005 bei L'Oréal im Hauptsitz in Paris. Dort stieg ich bis zum Directeur Marketing auf und leitete internationale Kampagnen für Luxusmarken bis zum Jahr 2015. Seit 2016 arbeite ich als selbstständiger Berater für Markenstrategie im Modesektor. Ich bin ein passionierter Fechter (Escrime) und nehme regelmäßig an nationalen Veteranen-Turnieren teil. Außerdem spiele ich seit meiner Kindheit klassisches Klavier."
+  },
+  {
+    "id": "00000000-0000-0000-0000-00000012",
+    "name_field": "Dr. med. Sarah Meyer-Landrut",
+    "geburtsdatum": "15. Mai 1970",
+    "kontaktdaten": "s.meyer@klinikum.de | Festnetz: 089 1234560 | handy: 0171 1122334",
+    "cv_text": "Privatanschrift: Brienner Straße 20, 80333 München. Ich studierte Humanmedizin an der Ludwig-Maximilians-Universität München von 1990 bis 1996. Meine Promotion schloss ich im Jahr 1998 erfolgreich ab. Von 1999 bis 2010 war ich als Oberärztin in der Kardiologie an der Charité in Berlin tätig, bevor es mich zurück nach München zog. Dort eröffnete ich 2011 meine eigene Praxis für ganzheitliche Kardiologie, die ich bis heute führe. Ich bin spezialisiert auf präventive Diagnostik. Als Ausgleich zur Arbeit praktiziere ich täglich Yoga und widme mich am Wochenende der Ölmalerei in meinem eigenen kleinen Atelier."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0000013",
+    "name_field": "Müller, Hans-Peter",
+    "geburtsdatum": "30.11.1965",
+    "kontaktdaten": "hape.m[at]t-online.de, Telefonnummer: 02232 98765, Mobiltelefon: 0160 5566778",
+    "cv_text": "Ich lebe in der Hauptstraße 4 in 50321 Brühl. Nach meinem Schulabschluss absolvierte ich eine klassische Ausbildung zum Bankkaufmann bei der Kreissparkasse Köln im Zeitraum von August 1982 bis Juli 1985. Nach der Ausbildung wurde ich übernommen und blieb meinem Arbeitgeber bis heute treu. Seit über 15 Jahren leite ich nun die Filiale in Brühl-Mitte. Ich verfüge über umfassende Kenntnisse im Privatkundengeschäft und in der Anlageberatung. In meiner Freizeit bin ich ein sehr aktives Mitglied im örtlichen Karnevalsverein und organisiere dort die jährlichen Prunksitzungen mit."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000014",
+    "name_field": "Fatima Al-Sayed",
+    "geburtsdatum": "12.09.1994",
+    "kontaktdaten": "fatima.s@dubai.ae, landline: +971 4 123 4567, cell: +971 50 123 4567",
+    "cv_text": "Wohnort: Sheikh Zayed Road, Apartment 502, Dubai, VAE. Für mein Studium zog ich nach London, wo ich meinen Master in Finance an der London School of Economics (LSE) absolvierte (2015-2017). Nach meinem Abschluss kehrte ich nach Dubai zurück und begann im Januar 2018 als Financial Analyst bei der HSBC. Dort bin ich bis heute für die Bewertung von Immobilienfonds zuständig. Ich bin sehr versiert im Umgang mit Excel, Bloomberg-Terminals und Python für Finanzmodellierung. In meiner Freizeit spiele ich regelmäßig Tennis im Club und nehme an lokalen Amateurturnieren teil."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000015",
+    "name_field": "Eriksson, Lars",
+    "geburtsdatum": "05.06.1988",
+    "kontaktdaten": "lars.e[at]spotify.se | Hem: +46 8 123 45 67 | mobil: +46 70 123 45 67",
+    "cv_text": "Adresse: Sveavägen 45, 111 34 Stockholm, Schweden. Ich habe Informatik an der KTH Royal Institute of Technology in Stockholm studiert (2008-2013). Unmittelbar nach meinem Masterabschluss wurde ich von Spotify rekrutiert. Dort arbeite ich seit Januar 2014 als Senior Software Engineer und bin für die Optimierung der Backend-Infrastruktur und Streaming-Latenz verantwortlich. Ich bin ein Experte für die Programmiersprache Rust und für verteilte Systeme. In den Wintermonaten verbringe ich fast jedes Wochenende beim Skifahren in den schwedischen Bergen, im Sommer wandere ich gerne."
+  },
+  {
+    "id": "00000000-0000-0000-0000-00016",
+    "name_field": "Vanessa van der Berg",
+    "geburtsdatum": "22.10.1991",
+    "kontaktdaten": "v.vanderberg@uu.nl, Festnetz: +31 30 123 4567, handy: +31 6 12345678",
+    "cv_text": "Anschrift: Domplein 29, 3512 JE Utrecht, Niederlande. Mein Studium der Rechtswissenschaften absolvierte ich an der Universität Utrecht im Zeitraum von September 2010 bis August 2015. Nach meinem Referendariat begann ich im Januar 2016 als Associate bei der international tätigen Kanzlei Loyens & Loeff. Mein Schwerpunkt lag dort auf Wirtschaftsrecht und M&A. Im Jahr 2021 entschied ich mich für den Wechsel in die Wirtschaft und arbeite seither als Legal Counsel für ein Tech-Unternehmen. In meiner Freizeit spiele ich aktiv Feldhockey in der ersten Mannschaft des HC Utrecht."
+  },
+  {
+    "id": "00000000-0000-0000-0000-00017",
+    "name_field": "Kim, Ji-Hoon",
+    "geburtsdatum": "15.03.1995",
+    "kontaktdaten": "jh.kim[at]samsung.com, Home: +82 2 123 4567, Mobile: +82 10 1234 5678",
+    "cv_text": "Wohnhaft in Gangnam-gu, Seoul, Südkorea. Ich habe Produktdesign an der Seoul National University (SNU) studiert und meinen Abschluss im Jahr 2018 gemacht (Zeitraum 2014-2018). Direkt nach dem Studium wurde ich in das Design-Team von Samsung Electronics aufgenommen. Dort arbeite ich seither als Senior Product Designer an der Gestaltung neuer Smartphone-Modelle. Ich bin Experte für Figma, UI/UX-Prinzipien und die Adobe Creative Suite. Meine Leidenschaft gehört der analogen Fotografie, für die ich am Wochenende oft durch die ländlichen Gegenden Koreas reise, um Landschaften festzuhalten."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0018",
+    "name_field": "Omar Ahmed",
+    "geburtsdatum": "01.01.1980",
+    "kontaktdaten": "omar.a@cairo.eg | Telefon: +20 2 1234567 | mobilnummer: +20 10 12345678",
+    "cv_text": "Adresse: Tahrir Square 1, Kairo, Ägypten. Meinen Master of Business Administration (MBA) erlangte ich an der American University in Cairo (AUC) im Zeitraum von 2005 bis 2007. Nach mehreren Jahren in Führungspositionen bei verschiedenen Technologieunternehmen gründete ich im Jahr 2010 das StartUp Hub in Kairo, dessen CEO ich bis heute bin. Wir unterstützen junge Gründer in der MENA-Region. Ich verfüge über ausgeprägte Kenntnisse in strategischer Unternehmensführung. Seit vielen Jahren engagiere ich mich ehrenamtlich für die Organisation 'Education for All', die Schulbildung in ländlichen Regionen fördert."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0019",
+    "name_field": "Dimitrov, Ivan",
+    "geburtsdatum": "12.05.1987",
+    "kontaktdaten": "i.dimitrov[at]mail.bg, Festnetz: +359 2 123 4567, Handy: +359 88 123 4567",
+    "cv_text": "Wohnort: Vitosha Blvd 10, Sofia, Bulgarien. Mein Studium der Informatik absolvierte ich an der Technischen Universität Sofia von 2006 bis 2011. Danach arbeitete ich von 2012 bis 2019 als Senior Software Developer bei der Firma Progress (ehemals Telerik), wo ich maßgeblich an der Entwicklung von UI-Komponenten beteiligt war. Seit 2020 arbeite ich als freiberuflicher Software-Architekt mit Fokus auf Cloud-Migrationen. Ich bin spezialisiert auf .NET, C# und SQL Server Architekturen. In meiner Freizeit bin ich begeisterter Mountainbiker und verbringe viel Zeit in den bulgarischen Witoscha-Bergen."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0020",
+    "name_field": "Papadopoulos, Nikos",
+    "geburtsdatum": "19.08.1978",
+    "kontaktdaten": "nikos.p@otenet.gr | Zuhause: +30 210 1234567 | mobil: +30 69 12345678",
+    "cv_text": "Anschrift: Ermou 15, Athen, Griechenland. Ich habe Bauingenieurwesen an der Nationalen Technischen Universität Athen studiert und meinen Abschluss im Jahr 2001 gemacht (1996-2001). Seit 2002 bin ich als Bauingenieur bei GEK Terna tätig, einem der größten Baukonzerne Griechenlands. Mein Spezialgebiet ist die statische Berechnung und Konstruktion von erdbebensicheren Brücken und Hochhäusern. Ich verfüge über umfassende Erfahrung in internationaler Projektleitung. In meiner Freizeit spiele ich seit meiner Jugend Basketball im lokalen Verein und verfolge die griechische Profiliga sehr intensiv."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0021",
+    "name_field": "Silva, Beatriz",
+    "geburtsdatum": "04.03.1992",
+    "kontaktdaten": "b.silva[at]globo.com.br, Fixo: +55 11 1234-5678, Celular: +55 11 91234-5678",
+    "cv_text": "Adresse: Avenida Paulista 1000, São Paulo, Brasilien. Mein Journalismus-Studium an der Universidade de São Paulo (USP) schloss ich im Jahr 2015 ab (Beginn 2011). Seit 2016 arbeite ich als investigative Journalistin und Redakteurin beim Fernsehsender TV Globo. Mein Schwerpunkt liegt auf Sozialreportagen und politischer Analyse. Ich verfüge über exzellente Schreibkenntnisse und Erfahrung im Social-Media-Management für Nachrichtenformate. Seit drei Jahren helfe ich ehrenamtlich an den Wochenenden in einem Tierheim am Stadtrand von São Paulo aus, wo ich mich um verlassene Hunde kümmere."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0022",
+    "name_field": "Maja Andersson",
+    "geburtsdatum": "01.12.1997",
+    "kontaktdaten": "maja.a@ikea.com | Festnetznummer: +46 40 987 654 | handynummer: +46 73 987 6543",
+    "cv_text": "Wohnhaft am Stortorget 1, Malmö, Schweden. Ich habe Human Resources an der Universität Lund studiert und meinen Bachelor im Jahr 2019 erlangt (2016-2019). Unmittelbar nach dem Studium startete ich als Junior HR Specialist bei IKEA in der Zentrale in Malmö. Inzwischen wurde ich zur Senior HR Generalistin befördert und bin für das Recruiting und Coaching neuer Mitarbeiter im IT-Bereich zuständig. Ich bin Expertin für moderne Personalauswahlverfahren. In meiner Freizeit widme ich mich der abstrakten Malerei mit Acrylfarben und besuche regelmäßig Kunstgalerien in ganz Skandinavien."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0023",
+    "name_field": "Elena Novikova",
+    "geburtsdatum": "15.06.1983",
+    "kontaktdaten": "e.novikova[at]yandex.ru, Telefon: +7 495 123-45-67, mobil: +7 916 123-45-67",
+    "cv_text": "Anschrift: Arbat Street 1, Moskau, Russland. Mein Studium der Mathematik und Informatik an der Staatlichen Universität Moskau (MSU) schloss ich 2005 mit Auszeichnung ab (2000-2005). Seit 2006 bin ich bei Yandex tätig, wo ich als Lead Researcher in der Abteilung für Künstliche Intelligenz arbeite. Mein Forschungsschwerpunkt liegt auf Natural Language Processing (NLP) und neuronalen Netzen. Ich habe zahlreiche wissenschaftliche Artikel zu diesem Thema veröffentlicht. In meiner Freizeit spiele ich leidenschaftlich Schach und nehme regelmäßig an Online-Turnieren sowie lokalen Vereinsmeisterschaften in Moskau teil."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0024",
+    "name_field": "Hao Chen",
+    "geburtsdatum": "20.07.1989",
+    "kontaktdaten": "hao.chen@alibaba.com, Festnetz: +86 571 8812 3456, Handy: +86 138 8812 3456",
+    "cv_text": "Wohnort: Hangzhou, Zhejiang, China. Ich habe Informatik an der Zhejiang University studiert (2007-2011). Nach meinem Abschluss begann ich als Software-Entwickler bei Alibaba. Über die Jahre stieg ich zum Engineering Manager auf und leite heute ein Team von 30 Entwicklern, das für die Skalierbarkeit der Cloud-Infrastruktur verantwortlich ist. Ich bin Experte für Java-Architekturen und hochverfügbare Systeme. Als sportlichen Ausgleich spiele ich fast täglich Tischtennis in der Betriebssportgruppe und nehme an regionalen Meisterschaften teil. Außerdem interessiere ich mich für traditionelle chinesische Kalligrafie."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0025",
+    "name_field": "Rahul Kumar",
+    "geburtsdatum": "10.10.1990",
+    "kontaktdaten": "rahul.k[at]infosys.com | Zuhause: +91 80 1234 5678 | mobil: +91 98450 12345",
+    "cv_text": "Adresse: Bangalore, Karnataka, Indien. Ich habe Informatik am Indian Institute of Technology (IIT) Bombay studiert (2008-2012). Seit meinem Abschluss arbeite ich bei Infosys, wo ich mich vom Junior Developer zum Software Architect hochgearbeitet habe. Mein Fokus liegt auf Cloud-nativen Anwendungen und Microservices-Architekturen für internationale Bankkunden. Ich bin zertifizierter AWS Solution Architect. Seit 2015 engagiere ich mich ehrenamtlich für die Initiative 'Teach for India', bei der ich benachteiligten Kindern an Wochenenden mathematische und informatische Grundkenntnisse vermittle."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0026",
+    "name_field": "John Doe Smith",
+    "geburtsdatum": "01.01.1970",
+    "kontaktdaten": "john.smith@example.com, Festnetz: +1 202-555-0123, handy: +1 202-555-0199",
+    "cv_text": "Wohnhaft in 1600 Pennsylvania Avenue NW, Washington, DC 20500, USA. Mein Studium der Rechtswissenschaften absolvierte ich an der Harvard Law School (1991-1994). Nach einer langjährigen Karriere in privaten Großkanzleien wechselte ich in den öffentlichen Dienst. Seit über 15 Jahren bin ich nun als leitender Staatsanwalt im US-Justizministerium (Justice Department) tätig. Mein Schwerpunkt liegt auf der Bekämpfung von Wirtschaftskriminalität und internationaler Korruption. In meiner Freizeit bin ich leidenschaftlicher Golfer und Mitglied im Congressional Country Club. Zudem engagiere ich mich in der politischen Bildungsarbeit."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0027",
+    "name_field": "Alice Brown",
+    "geburtsdatum": "05.05.1992",
+    "kontaktdaten": "alice.b[at]google.com | Tel: +1 650-253-0000 | Mobilnummer: +1 650-555-1234",
+    "cv_text": "Wohnort: Mountain View, CA, USA. Ich habe Informatik an der Stanford University studiert und meinen Master im Jahr 2014 abgeschlossen (2010-2014). Direkt nach dem Studium wurde ich von Google als Site Reliability Engineer (SRE) eingestellt. In dieser Rolle bin ich für die Verfügbarkeit und Skalierbarkeit kritischer Web-Services verantwortlich. Ich verfüge über exzellente Kenntnisse in Python, Go und der Verwaltung großer Kubernetes-Cluster. Als Ausgleich zur Arbeit in Silicon Valley verbringe ich viel Zeit in der Natur beim Wandern in den Nationalparks von Kalifornien und beim Trailrunning."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0028",
+    "name_field": "Robert Taylor",
+    "geburtsdatum": "15.03.1985",
+    "kontaktdaten": "r.taylor@amazon.com, Festnetznummer: +1 206-266-1000, handynummer: +1 206-555-9876",
+    "cv_text": "Anschrift: Seattle, WA, USA. Mein Studium an der University of Washington (UW) im Bereich Logistik und Supply Chain Management schloss ich 2007 ab (2003-2007). Unmittelbar danach begann ich bei Amazon im Bereich Operations. Über die Jahre habe ich verschiedene Logistikzentren geleitet und bin aktuell als General Manager für die Region Seattle zuständig. Ich bin Experte für Prozessoptimierung und Lagerautomatisierung. Seit mehreren Jahren helfe ich ehrenamtlich in einer lokalen Lebensmittelbank (Food Bank) aus, wo ich die Logistik für die Verteilung von Mahlzeiten an Bedürftige koordiniere."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0029",
+    "name_field": "Emily Wilson",
+    "geburtsdatum": "20.02.1995",
+    "kontaktdaten": "emily.w[at]facebook.com | Zuhause: +1 650-543-0000 | mobil: +1 650-555-4321",
+    "cv_text": "Wohnort: Menlo Park, CA, USA. Ich habe Informatik mit Schwerpunkt Web-Technologien an der University of California, Berkeley studiert (2013-2017). Seit meinem Abschluss arbeite ich als Frontend Engineer bei Meta (ehemals Facebook). Ich bin Teil des Teams, das für die Entwicklung neuer Benutzeroberflächen der Facebook-Hauptanwendung zuständig ist. Meine Schwerpunkte sind React, JavaScript und CSS-Architekturen. Ich lege großen Wert auf Barrierefreiheit im Web. In meiner Freizeit bin ich leidenschaftliche Surferin und nutze jede Gelegenheit, um an den Stränden von Santa Cruz oder Half Moon Bay Wellen zu reiten."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0030",
+    "name_field": "David Lee",
+    "geburtsdatum": "12.12.1980",
+    "kontaktdaten": "david.lee@netflix.com, Telefon: +1 408-540-1000, Handy: +1 408-555-2222",
+    "cv_text": "Anschrift: Los Gatos, CA, USA. Mein Studium an der UCLA im Bereich Film- und Medienwissenschaften schloss ich im Jahr 2002 ab (1998-2002). Nach Stationen bei verschiedenen Produktionsstudios in Hollywood wechselte ich 2010 zu Netflix. Dort arbeite ich heute als Director of Content Strategy und bin für die Planung und Lizenzierung von Original-Produktionen für den asiatischen Markt verantwortlich. Ich verfüge über tiefgreifende Marktkenntnisse und Erfahrung in Vertragsverhandlungen. In meiner Freizeit bin ich ein leidenschaftlicher Hobbykoch und experimentiere gerne mit der Fusionsküche, wobei ich oft Freunde zu Testessen einlade."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0031",
+    "name_field": "Maria Gomez",
+    "geburtsdatum": "12.12.1988",
+    "kontaktdaten": "m.gomez[at]tesla.com | Festnetz: +1 512-555-0100 | mobil: +1 512-555-0155",
+    "cv_text": "Wohnhaft in Austin, TX, USA. Ich habe Maschinenbau an der University of Texas at Austin studiert und meinen Abschluss 2010 gemacht (2006-2010). Seit 2012 bin ich als Mechanical Engineer bei Tesla tätig. Zunächst arbeitete ich im Werk in Fremont, Kalifornien, und wechselte 2021 zur Gigafactory nach Austin. Mein Schwerpunkt liegt auf der Entwicklung von Robotersystemen für die automatisierte Fahrzeugmontage. Ich bin Expertin für CAD-Design und industrielle Robotik. Als sportlichen Ausgleich spiele ich Fußball in einer Frauenmannschaft in Austin und nehme an regionalen Hobby-Ligen teil."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0032",
+    "name_field": "Paul Martin",
+    "geburtsdatum": "05.05.1975",
+    "kontaktdaten": "p.martin@apple.com, Festnetznummer: +1 408-996-1010, handynummer: +1 408-555-3333",
+    "cv_text": "Adresse: Cupertino, CA, USA. Mein Studium der Elektrotechnik am California Institute of Technology (Caltech) schloss ich 1997 mit Auszeichnung ab (1993-1997). Seit dem Jahr 2000 arbeite ich bei Apple als Senior Hardware Engineer. Ich war an der Entwicklung der Chip-Architektur für verschiedene iPhone-Generationen beteiligt. Meine Expertise liegt im Bereich Schaltungsdesign und Halbleitertechnologie. Ich besitze zahlreiche Patente im Bereich Energieeffizienz von Prozessoren. In meiner Freizeit widme ich mich leidenschaftlich der Gartenarbeit (Gardening) und züchte seltene Orchideenarten in meinem eigenen Gewächshaus."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0033",
+    "name_field": "Sarah White",
+    "geburtsdatum": "01.01.1990",
+    "kontaktdaten": "s.white[at]microsoft.com | Zuhause: +1 425-882-8080 | mobil: +1 425-555-4444",
+    "cv_text": "Wohnort: Redmond, WA, USA. Ich habe Informatik am Massachusetts Institute of Technology (MIT) studiert (2008-2012). Nach meinem Masterabschluss begann ich als Software Engineer bei Microsoft. Dort arbeite ich seither in der Azure-Abteilung an der Entwicklung von Cloud-Infrastrukturdiensten. Mein Fokus liegt auf verteilten Datenbanken und Systemsicherheit. Ich bin Expertin für C# und Cloud-Architekturen. Seit mehreren Jahren engagiere ich mich ehrenamtlich als Mentorin für Mädchen in MINT-Berufen (STEM education), um den Frauenanteil in der Technologiebranche zu fördern. In meiner Freizeit gehe ich gerne Klettern."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0034",
+    "name_field": "James Harris",
+    "geburtsdatum": "10.10.1982",
+    "kontaktdaten": "j.harris@uber.com, Telefon: +1 415-555-0123, Handy: +1 415-555-0199",
+    "cv_text": "Anschrift: San Francisco, CA, USA. Mein Studium an der Stanford University im Bereich Wirtschaftswissenschaften schloss ich 2004 ab (2000-2004). Nach Stationen in der Unternehmensberatung wechselte ich 2013 zu Uber, kurz nachdem das Unternehmen expandierte. Heute arbeite ich als Operations Manager und bin für die strategische Wachstumsplanung in Nordamerika zuständig. Ich verfüge über umfassende Erfahrung in der Marktanalyse und Prozessoptimierung. In meiner Freizeit bin ich ein passionierter Radfahrer (Cycling) und nehme regelmäßig an Wohltätigkeitsrennen teil, um Spenden für lokale Projekte zu sammeln."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0035",
+    "name_field": "Jessica Clark",
+    "geburtsdatum": "20.12.1993",
+    "kontaktdaten": "j.clark[at]airbnb.com | Festnetz: +1 415-555-4321 | mobilnummer: +1 415-555-5678",
+    "cv_text": "Wohnhaft in San Francisco, CA, USA. Ich habe Marketing und Kommunikation an der New York University (NYU) studiert und meinen Abschluss 2015 gemacht (2011-2015). Nach dem Studium zog ich an die Westküste und begann bei Airbnb als Community Lead. In dieser Rolle bin ich für die Kommunikation mit Gastgebern und die Organisation globaler Community-Events verantwortlich. Ich bin Expertin für Markenkommunikation und Krisenmanagement. Ich liebe das Reisen (Traveling) und habe bereits über 40 Länder besucht, wobei ich am liebsten in lokalen Unterkünften übernachte, um die Kultur hautnah zu erleben."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0036",
+    "name_field": "Michael Lewis",
+    "geburtsdatum": "15.06.1985",
+    "kontaktdaten": "m.lewis@salesforce.com, Festnetznummer: +1 415-901-7000, handynummer: +1 415-555-6666",
+    "cv_text": "Adresse: San Francisco, CA, USA. Mein Studium der Betriebswirtschaftslehre an der University of California, Berkeley schloss ich im Jahr 2007 ab (2003-2007). Unmittelbar nach dem Studium begann ich im Vertrieb bei Salesforce. Über die Jahre stieg ich zum Senior Sales Executive auf und verantworte heute Großkunden im Finanzsektor. Ich bin Experte für CRM-Systeme und cloudbasierte Vertriebsstrategien. Ich verfüge über ein ausgeprägtes Verhandlungsgeschick. Als Ausgleich zum Berufsalltag spiele ich leidenschaftlich Tennis im San Francisco Tennis Club und nehme regelmäßig an Turnieren der Amateur-Liga teil."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0037",
+    "name_field": "Karen Walker",
+    "geburtsdatum": "15.08.1978",
+    "kontaktdaten": "k.walker[at]twitter.com | Zuhause: +1 415-222-9670 | mobil: +1 415-555-7777",
+    "cv_text": "Anschrift: San Francisco, CA, USA. Ich habe Journalismus und Public Relations an der Columbia University studiert (1996-2000). Nach langjähriger Erfahrung in PR-Agenturen wechselte ich 2012 zu Twitter (jetzt X). Dort leite ich als PR Managerin die Abteilung für Unternehmenskommunikation. Ich bin verantwortlich für die Pressearbeit und das Reputationsmanagement auf internationaler Ebene. Ich verfüge über ein exzellentes Netzwerk zu globalen Medienhäusern. In meiner Freizeit praktiziere ich seit über 15 Jahren intensiv Yoga und Meditation, was mir hilft, auch in hektischen Zeiten einen kühlen Kopf zu bewahren."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0038",
+    "name_field": "David Hall",
+    "geburtsdatum": "01.03.1991",
+    "kontaktdaten": "d.hall@linkedin.com, Telefonnummer: +1 408-555-8888, Mobiltelefon: +1 408-555-9999",
+    "cv_text": "Wohnort: Sunnyvale, CA, USA. Mein Studium der Statistik und Datenanalyse an der Cornell University schloss ich 2013 ab (2009-2013). Seit 2014 arbeite ich als Data Scientist bei LinkedIn. Ich entwickle Algorithmen für die Job-Empfehlungen und die Analyse von Arbeitsmarkttrends. Ich bin Experte für SQL, R und Python-basierte Datenmodelle. Ich habe bereits mehrere Patente im Bereich maschinelles Lernen angemeldet. An den Wochenenden engagiere ich mich ehrenamtlich in der örtlichen Stadtbibliothek, wo ich kostenlose Kurse zur digitalen Weiterbildung für Senioren anbiete. Zudem bin ich ein begeisterter Leser von Biografien."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0039",
+    "name_field": "Susan Young",
+    "geburtsdatum": "20.11.1983",
+    "kontaktdaten": "s.young[at]adobe.com | Festnetz: +1 408-536-6000 | handy: +1 408-555-1111",
+    "cv_text": "Anschrift: San Jose, CA, USA. Ich habe Grafikdesign an der Rhode Island School of Design (RISD) studiert (2001-2005). Seit 2006 bin ich als Senior Designer bei Adobe tätig. Ich war maßgeblich an der Benutzeroberflächen-Gestaltung von Adobe Photoshop und Illustrator beteiligt. Meine Expertise liegt im Bereich Visual Design und User Experience (UX). Ich habe mehrere Design-Preise für meine innovativen Konzepte erhalten. In meiner Freizeit widme ich mich der klassischen Ölmalerei und stelle meine Werke gelegentlich in lokalen Galerien in Silicon Valley aus. Außerdem interessiere ich mich für Architekturgeschichte."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0040",
+    "name_field": "Richard King",
+    "geburtsdatum": "12.05.1987",
+    "kontaktdaten": "r.king@intel.com, Telefon: +1 408-765-8080, Handy: +1 408-555-2222",
+    "cv_text": "Wohnhaft in Santa Clara, CA, USA. Mein Studium der Elektrotechnik an der Purdue University schloss ich 2009 ab (2005-2009). Seit meinem Abschluss arbeite ich bei Intel als Chip Designer. Ich bin spezialisiert auf die Entwicklung von Logikschaltungen für die nächste Generation von Server-Prozessoren. Ich verfüge über exzellente Kenntnisse in VHDL und digitalem Schaltungsdesign. Ich habe an der Entwicklung mehrerer Industriestandards mitgewirkt. In meiner Freizeit spiele ich aktiv Fußball in einer Hobbymannschaft und bin ein großer Fan der San Francisco 49ers, deren Spiele ich regelmäßig im Stadion verfolge."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0041",
+    "name_field": "Linda Wright",
+    "geburtsdatum": "19.09.1994",
+    "kontaktdaten": "l.wright[at]oracle.com | Festnetznummer: +1 512-555-3333 | mobil: +1 512-555-4444",
+    "cv_text": "Anschrift: Austin, TX, USA. Ich habe Informatik an der Georgia Institute of Technology (Georgia Tech) studiert und meinen Bachelor 2016 gemacht (2012-2016). Nach dem Studium zog ich nach Austin und begann als Database Administrator (DBA) bei Oracle. Inzwischen bin ich für die Verwaltung und Sicherheit großer Cloud-Datenbanken für Unternehmenskunden verantwortlich. Ich bin Expertin für SQL, Oracle Database-Architekturen und Performance-Tuning. In meiner Freizeit gehe ich leidenschaftlich gerne wandern (Hiking) und erkunde die State Parks rund um Austin. Außerdem spiele ich seit meiner Schulzeit Querflöte."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0042",
+    "name_field": "Juan Lopez",
+    "geburtsdatum": "15.02.1981",
+    "kontaktdaten": "j.lopez@cisco.com, Zuhause: +1 408-526-4000, mobilnummer: +1 408-555-5555",
+    "cv_text": "Wohnort: San Jose, CA, USA. Mein Studium der Netzwerktechnik an der University of Southern California (USC) schloss ich im Jahr 2003 ab (1999-2003). Seit 2004 bin ich als Network Engineer bei Cisco tätig. Mein Schwerpunkt liegt auf der Entwicklung und Implementierung sicherer Netzwerkinfrastrukturen für globale Konzerne. Ich bin CCNA-zertifiziert und Experte für Routing-Protokolle und Netzwerksicherheit. Seit vielen Jahren engagiere ich mich ehrenamtlich für eine lokale Tierrettungsorganisation (Animal Rescue), wo ich mich um die Vermittlung von herrenlosen Hunden kümmere. In meiner Freizeit koche ich gerne spanische Gerichte."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0043",
+    "name_field": "Jennifer Hill",
+    "geburtsdatum": "10.10.1989",
+    "kontaktdaten": "j.hill[at]ibm.com | Festnetz: +1 914-499-1900 | handy: +1 914-555-6666",
+    "cv_text": "Anschrift: Armonk, NY, USA. Ich habe Informatik mit Schwerpunkt Quantenphysik am Massachusetts Institute of Technology (MIT) studiert (2007-2011). Nach meiner Promotion begann ich als Research Scientist bei IBM Research. Dort arbeite ich seither an der Entwicklung von Quantencomputern und entsprechenden Software-Algorithmen. Ich bin Expertin für KI-Anwendungen und Quantenmechanik. Ich habe zahlreiche wissenschaftliche Publikationen in Fachzeitschriften veröffentlicht. In meiner Freizeit bin ich eine begeisterte Leserin von Sachbüchern und Biografien. Zudem spiele ich Klavier und interessiere mich für klassische Musik."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0044",
+    "name_field": "Thomas Scott",
+    "geburtsdatum": "20.04.1992",
+    "kontaktdaten": "t.scott@paypal.com, Telefon: +1 408-967-1000, Handy: +1 408-555-7777",
+    "cv_text": "Wohnhaft in San Jose, CA, USA. Mein Studium der Informatik an der Stanford University schloss ich 2014 ab (2010-2014). Direkt nach dem Studium begann ich als Junior Product Manager bei PayPal. Heute bin ich als Senior Product Manager für die Entwicklung neuer FinTech-Lösungen im Bereich mobiler Zahlungen zuständig. Ich verfüge über umfassende Kenntnisse im Bereich digitale Bezahlsysteme und Produktstrategie. In meiner Freizeit spiele ich leidenschaftlich Golf und bin Mitglied in einem lokalen Golfclub in San Jose. Außerdem interessiere ich mich für Investitionen in Technologie-Startups und verfolge die aktuellen Markttrends."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0045",
+    "name_field": "Nancy Adams",
+    "geburtsdatum": "15.12.1986",
+    "kontaktdaten": "n.adams[at]ebay.com | Festnetznummer: +1 408-376-7400 | mobil: +1 408-555-8888",
+    "cv_text": "Adresse: San Jose, CA, USA. Ich habe Marketing und Betriebswirtschaft an der University of California, Berkeley studiert (2004-2008). Seit 2009 arbeite ich als Marketing Specialist bei eBay. Mein Fokus liegt auf der Suchmaschinenoptimierung (SEO) und dem Suchmaschinenmarketing (SEM) für den nordamerikanischen Marktplatz. Ich verfüge über tiefgreifende Kenntnisse in der Datenanalyse von Nutzerverhalten. In meiner Freizeit bin ich eine leidenschaftliche Läuferin (Running) und nehme regelmäßig an Marathon-Wettbewerben teil. Zudem interessiere ich mich für nachhaltige Mode und besuche gerne Flohmärkte und Second-Hand-Läden."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0046",
+    "name_field": "George Nelson",
+    "geburtsdatum": "20.01.1984",
+    "kontaktdaten": "g.nelson@hp.com, Zuhause: +1 650-857-1501, mobilnummer: +1 650-555-9999",
+    "cv_text": "Wohnort: Palo Alto, CA, USA. Mein Studium der Elektrotechnik am California Institute of Technology (Caltech) schloss ich im Jahr 2006 ab (2002-2006). Seit 2007 bin ich als Support Engineer bei HP (Hewlett-Packard) tätig. Mein Aufgabengebiet umfasst die technische Unterstützung für Unternehmenskunden bei komplexen Server- und Speicherlösungen. Ich verfüge über Expertenkenntnisse in Hardware-Architekturen und verschiedenen Betriebssystemen. Seit mehreren Jahren engagiere ich mich ehrenamtlich in einer Organisation für Kriegsveteranen (Veterans volunteer), wo ich Hilfe bei technischen Fragen und der Jobsuche anbiete. In meiner Freizeit wandere ich gerne."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0047",
+    "name_field": "Betty Carter",
+    "geburtsdatum": "07.07.1995",
+    "kontaktdaten": "b.carter[at]dell.com | Festnetz: +1 512-728-7000 | handy: +1 512-555-0000",
+    "cv_text": "Anschrift: Round Rock, TX, USA. Ich habe Betriebswirtschaftslehre mit Schwerpunkt Vertrieb an der University of Texas at Austin studiert (2013-2017). Seit meinem Abschluss arbeite ich als Sales Representative bei Dell Technologies. Ich betreue Unternehmenskunden im Bereich IT-Infrastruktur und Hardware-Lösungen. Ich verfüge über ein ausgeprägtes Verhandlungsgeschick und fundierte Kenntnisse im Bereich Business-Hardware. In meiner Freizeit bin ich eine leidenschaftliche Schwimmerin (Swimming) und trainiere regelmäßig in einem lokalen Schwimmverein. Außerdem interessiere ich mich für Fotografie und halte gerne Momente in der Natur fest."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0048",
+    "name_field": "Kevin Mitchell",
+    "geburtsdatum": "01.05.1981",
+    "kontaktdaten": "k.mitchell@nvidia.com, Telefon: +1 408-486-2000, Handy: +1 408-555-1111",
+    "cv_text": "Wohnhaft in Santa Clara, CA, USA. Mein Studium der Informatik an der Purdue University schloss ich im Jahr 2003 ab (1999-2003). Seit 2004 arbeite ich bei NVIDIA als GPU Architect. Ich war maßgeblich an der Entwicklung der CUDA-Architektur und neuer Grafikprozessor-Generationen beteiligt. Ich verfüge über Expertenkenntnisse in der Programmierung von massiv parallelen Systemen. Ich habe zahlreiche Patente im Bereich Grafikverarbeitung angemeldet. In meiner Freizeit spiele ich aktiv Basketball in einer Hobbymannschaft und bin ein großer Sportfan. Zudem interessiere ich mich für die Entwicklung von Videospielen und probiere gerne neue Technologien aus."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0049",
+    "name_field": "Maria Perez",
+    "geburtsdatum": "15.08.1990",
+    "kontaktdaten": "m.perez[at]zoom.us | Festnetznummer: +1 888-799-9666 | mobil: +1 408-555-2222",
+    "cv_text": "Anschrift: San Jose, CA, USA. Ich habe Kommunikation an der San Jose State University (SJSU) studiert (2008-2012). Nach dem Studium begann ich im Kundenservice eines Tech-Unternehmens und wechselte 2015 zu Zoom Video Communications. Heute arbeite ich als Customer Success Managerin und betreue internationale Großkunden bei der Implementierung von Videokommunikationslösungen. Ich verfüge über exzellente Kenntnisse in CRM-Systemen und in der Kundenbetreuung. In meiner Freizeit singe ich leidenschaftlich gerne (Singing) und bin Mitglied in einem lokalen Chor. Außerdem liebe ich es, neue Restaurants in der Bay Area zu entdecken."
+  },
+  {
+    "id": "00000000-0000-0000-0000-0050",
+    "name_field": "Paul Roberts",
+    "geburtsdatum": "10.10.1988",
+    "kontaktdaten": "p.roberts@slack.com, Zuhause: +1 415-000-0000, mobilnummer: +1 415-555-3333",
+    "cv_text": "Wohnort: San Francisco, CA, USA. Mein Studium der Informatik an der University of California, Berkeley schloss ich im Jahr 2010 ab (2006-2010). Seit 2012 arbeite ich als Backend Engineer bei Slack (jetzt Salesforce). Mein Schwerpunkt liegt auf der Entwicklung skalierbarer Messaging-Infrastrukturen und der Integration von Drittanbieter-Apps. Ich verfüge über exzellente Kenntnisse in Java und PHP. Seit mehreren Jahren engagiere ich mich ehrenamtlich als Lehrer in Coding Camps für benachteiligte Jugendliche, um ihnen den Einstieg in die IT-Welt zu erleichtern. In meiner Freizeit gehe ich gerne Klettern und bin ein begeisterter Wanderer."
   }
 ]

@@ -109,6 +109,7 @@ async def init_db(conn):
                 completion_tokens INT,
                 total_tokens INT,
                 duration_ms FLOAT,
+                retries INT DEFAULT 0,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             );
         """)
@@ -128,7 +129,7 @@ async def process_single_entry(sem, conn, entry, model_name, agent):
         start_time = time.perf_counter()
         
         try:
-            print(f"⏳ {model_name}: Starte für ID {str(app_id)[:8]}...")
+            print(f"⏳ {model_name}: Starte für ID {str(app_id)}...")
             
             # KI-Aufruf
             result = await agent.run(
@@ -229,12 +230,16 @@ async def process_single_entry(sem, conn, entry, model_name, agent):
 
                 # 7. LLM Logs
                 usage = result.usage()
+                all_msgs = result.all_messages()
+                model_responses = sum(1 for msg in all_msgs if msg.__class__.__name__ == 'ModelResponse')
+                retries_count = max(0, model_responses - 1)
+
                 await cur.execute(
                     """
-                    INSERT INTO LLM_Logs (applicant_id, model_name, prompt_tokens, completion_tokens, total_tokens, duration_ms)
-                    VALUES (%s, %s, %s, %s, %s, %s)
+                    INSERT INTO LLM_Logs (applicant_id, model_name, prompt_tokens, completion_tokens, total_tokens, duration_ms, retries)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s)
                     """,
-                    (app_id, model_name, usage.request_tokens, usage.response_tokens, usage.total_tokens, duration_ms)
+                    (app_id, model_name, usage.input_tokens, usage.output_tokens, usage.total_tokens, duration_ms, retries_count)
                 )
 
             print(f"✅ {model_name}: Komplettes Profil gespeichert in {duration_ms:.2f}ms")
