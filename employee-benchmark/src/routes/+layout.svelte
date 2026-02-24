@@ -34,6 +34,7 @@
 </svelte:head>
 
 
+<!-- svelte-ignore a11y_no_static_element_interactions -->
 <div bind:this={container} onpointermove={onPointerMove} onpointerleave={onPointerLeave} class="fixed inset-0 z-0">
   <!-- decorative images -->
   <img src={planet} alt="planet" class="pointer-events-none absolute -top-6 -left-6 w-[520px] md:w-[640px] max-w-none opacity-95 drop-shadow-2xl" style="transform: {planetTransform}; transition: transform 180ms linear;" />
